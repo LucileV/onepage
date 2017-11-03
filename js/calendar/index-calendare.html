@@ -1,0 +1,208 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <title>jquery-calendar.js Demos</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700" rel="stylesheet"> 
+
+        <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+        <link rel="stylesheet" type="text/css" href="css/calendar.css">
+
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+        <script type="text/javascript" src="js/jquery-calendar.js"></script>
+
+        <style>
+            #calendar{
+                max-width: 600px;
+                margin: auto;    
+            }
+        </style>
+
+    </head>
+
+    <body>
+<div id="jquery-script-menu">
+<div class="jquery-script-center">
+<ul>
+<li><a href="http://www.jqueryscript.net/time-clock/Simple-Responsive-Event-Calendar-Plugin-jQuery-jquery-calendar-js.html">Download This Plugin</a></li>
+<li><a href="http://www.jqueryscript.net/">Back To jQueryScript.Net</a></li>
+</ul>
+<div class="jquery-script-ads"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+<div class="jquery-script-clear"></div>
+</div>
+</div>
+        <h1 style="margin-top:150px;">jquery-calendar.js Demos</h1>
+        
+        <div class="container">
+
+            <div id="calendar"></div>
+
+            
+
+            <div class="summary">Color schemes</div>
+            
+            <div class="row fix">
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Orange:</div>
+                    
+                    <div id="calendar-1"></div>
+
+                    <hr />
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Purple:</div>
+
+                    <div id="calendar-2"></div>
+
+                    <hr />
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Yellow:</div>
+
+                    <div id="calendar-3"></div>
+
+                    <hr />
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Blue:</div>
+
+                    <div id="calendar-4"></div>
+
+                    <hr />
+
+                </div>
+                
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Green:</div>
+
+                    <div id="calendar-5"></div>
+
+                    <hr />
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Grey:</div>
+
+                    <div id="calendar-6"></div>
+
+                    <hr />
+
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+
+                    <div class="title">Pink:</div>
+
+                    <div id="calendar-7"></div>
+
+                    <hr />
+
+                </div>
+
+            </div>
+
+            <div class="copyright">
+                
+                <p>&copy; Copyright Benjamin Hall :: <a href="https://github.com/benhall14/jquery-calendar" target="_blank" rel="nofollow">https://github.com/benhall14/jquery-calendar</a></p>
+            
+            </div>
+
+        </div>
+
+        <script>
+
+            var events = [{start: '2017-04-01', end: '2017-04-07', summary: "Example Event", mask: true}, {start: '2017-05-05', end: '2017-05-15', summary: "Example Event #3", mask: true}];
+
+            $('#calendar').calendar({'events': events});
+
+            var calendar1 = new Date();
+            calendar1.setMonth(calendar1.getMonth() - 1);
+
+            $('#calendar-1').calendar({color: 'orange', date: calendar1});
+
+            var calendar2 = new Date();
+            calendar2.setMonth(calendar2.getMonth() + 1);
+
+            $('#calendar-2').calendar({color: 'purple', date: calendar2, events: events});
+
+            var calendar3 = new Date();
+            calendar3.setMonth(calendar3.getMonth() + 2);
+            
+            $('#calendar-3').calendar({color: 'yellow', date: calendar3});
+
+            var calendar4 = new Date();
+            calendar4.setMonth(calendar4.getMonth() + 3);
+            
+            $('#calendar-4').calendar({color: 'blue', date: calendar4});
+
+            var calendar5 = new Date();
+            calendar5.setMonth(calendar5.getMonth() + 4);
+            
+            $('#calendar-5').calendar({color: 'green', date: calendar5});
+
+            var calendar6 = new Date();
+            calendar6.setMonth(calendar6.getMonth() + 5);
+            
+            $('#calendar-6').calendar({color: 'grey', date: calendar6});
+
+            var calendar7 = new Date();
+            calendar7.setMonth(calendar7.getMonth() + 5);
+            
+            $('#calendar-7').calendar({color: 'pink', date: calendar7});
+
+
+        </script>
+
+    </body>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
