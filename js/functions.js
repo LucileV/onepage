@@ -37,6 +37,15 @@
 
 
 
+    $(".bnt_calendar").click(function(){
+    $("#sidebar").animate({
+        left: 'toggle',
+    });
+}); 
+
+
+
+
 
 
 

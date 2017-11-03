@@ -1,0 +1,148 @@
+
+@media (max-width: 600px) {
+    
+   
+    .text-center h3{
+      font-size: 30px;
+      margin-top: 97px;
+      margin-bottom: -59px;
+    }
+    h3{
+      font-size: 30px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .navbar-brand img {
+      
+      display: none;                   
+
+    }
+
+    .navbar-defaut {
+    
+    display: none;
+
+    }
+
+    .navbar-nav > li {
+    padding-bottom: 19px;
+
+    }
+
+    .menu_secondaire {
+    
+      display: none;
+    
+    }
+    
+    .parallax-window .text-center h2 {
+    font-size: 40px;
+    margin-top: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #fff;
+    }
+
+    .parallax-window {
+    min-height: auto;
+    }
+
+    #our-team .text-center {
+    padding-top: -10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    }
+
+    #contact {
+    padding-top: 0px;
+    }
+
+    .team .row.nth-child(2) {
+
+    display: none;
+
+    }
+
+
+    
+    .carousel-caption h2 {
+    font-size: 15px;
+    }
+
+    .carousel-caption h2 span{
+    font-size: 15px;
+    }
+
+
+    .slider {
+
+        display: none;
+
+    }
+
+    .navbar-brand img {
+      display: none;
+    }
+    
+      .slogan {
+    
+    display: none;
+
+    }
+
+             
+}
+
+@media (max-width: 1000px) {
+
+    #pricing {
+    padding-top: 0px;
+
+    }
+    
+ 
+    .navbar-nav li.nth-child(1) {
+    display: none;
+    }
+    
+    .container {
+    width: 100%;
+      }
+    
+
+     #sidebar {
+    display: none;
+    }
+
+    .navbar-brand img {
+      display: none;
+
+
+    }
+
+    #about-slider {
+
+    margin-top: 66px;
+    }
+
+    .slogan {
+
+    position: absolute;
+    font-family: 'dry_brushregular';
+    font-size:30px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    margin-top: -40px;
+    margin-left: 10px;
+     text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+
+  }
+
+
+ }
+

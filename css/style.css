@@ -86,8 +86,7 @@ h4{
 }
 
 #sidebar {
-    //position: fixed;
-    display: none;
+   
     width: 280px;
     height: 300px;
     background-color: #FFF;
@@ -104,6 +103,8 @@ h4{
     box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.21);
 
  }
+
+
 
 
 
@@ -1030,4 +1031,19 @@ ul.social-network li a {
 }
 
 
+.slogan {
 
+  position: absolute;
+  font-family: 'dry_brushregular';
+  font-size: 28px;
+  -webkit-transform: rotate(335deg);
+  -moz-transform: rotate(335deg);
+  -ms-transform: rotate(335deg);
+  -o-transform: rotate(335deg);
+  transform: rotate(335deg);
+  margin-top: -5px;
+  margin-left: -22px;
+   text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+
+
+}
